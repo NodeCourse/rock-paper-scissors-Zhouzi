@@ -1,0 +1,8 @@
+html
+    head
+        title Rock-Paper-Scissors
+    body
+        ul
+            for choice in choices
+                li
+                    a(href="/play/" + choice.id) #{choice.name}

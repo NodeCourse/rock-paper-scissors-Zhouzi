@@ -1,8 +1,11 @@
 const express = require('express');
+const choices = require('./choices.json');
 const app = express();
 
+app.set('view engine', 'pug');
+
 app.use((req, res) => {
-    res.send('Hello World');
+    res.render('home', { choices });
 });
 
 app.listen(3000, () => {
