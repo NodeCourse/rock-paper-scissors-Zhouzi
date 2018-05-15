@@ -1,0 +1,17 @@
+[
+  {
+    "id": "rock",
+    "name": "Rock",
+    "winOver": ["scissors"]
+  },
+  {
+    "id": "paper",
+    "name": "Paper",
+    "winOver": ["rock"]
+  },
+  {
+    "id": "scissors",
+    "name": "Scissors",
+    "winOver": ["paper"]
+  }
+]
