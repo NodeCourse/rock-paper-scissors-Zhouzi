@@ -1,14 +1,17 @@
 [
   {
     "id": "rock",
-    "name": "Rock"
+    "name": "Rock",
+    "winOver": ["scissors"]
   },
   {
     "id": "paper",
-    "name": "Paper"
+    "name": "Paper",
+    "winOver": ["rock"]
   },
   {
     "id": "scissors",
-    "name": "Scissors"
+    "name": "Scissors",
+    "winOver": ["paper"]
   }
 ]
