@@ -3,6 +3,7 @@ const choices = require('./choices.json');
 const app = express();
 
 app.set('view engine', 'pug');
+app.use(express.static('public'));
 
 app.use((req, res) => {
     res.render('home', { choices });
